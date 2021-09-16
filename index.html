@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./media/icon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div id="center">
+            <div id="input">
+                <label for="searchInput"></label>
+                <input type="search" placeholder="Enter Location" id="searchInput">
+                <button id="searchBtn"></button>
+            </div>
+            <div id="buttons">
+                <button id="celsius">°C</button>
+                <button id="farenheit">F</button>
+            </div>
+        </div>
+        <div id="content">
+            <div id="titleHead" class="container">
+                <span id="description">
+                    <h2 id="h2"></h2>
+                    <h5 id="place"></h5>
+                    <h6 id="coordinates"></h6>
+                    <p id="time"></p>
+                </span>
+                <hr>
+            </div>
+            <div id="data" class="container">
+                <div id="temp">
+                    <p id="tempOne"> 
+                        <i class="fas fa-feather-alt"></i>
+                        <span id="temperature">Temperature</span>
+                    </p> 
+                    <p id="tempTwo"> 
+                        <i class="fas fa-meteor"></i> 
+                        <span id="feelsLike">Feels Like</span>
+                    </p> 
+                    <p id="tempThree"> 
+                        <i class="fas fa-temperature-low"></i> 
+                        <span id="lowestTemp">Lowest temp</span>
+                    </p>
+                    <p id="tempFour">
+                        <i class="fas fa-temperature-high"></i> 
+                        <span id="highestTemp">highest temp</span> 
+                    </p>
+                </div>
+                <div id="pressure">
+                    <p id="preOne"> 
+                        <i class="fas fa-compress-arrows-alt"></i>
+                        <span id="pascal">Pressure</span>
+                    </p>
+                    <p id="preTwo"> 
+                        <i class="fas fa-water"></i>
+                        <span id="humidity">Humidity</span>
+                    </p>
+                </div>
+                <div id="air">
+                    <p id="windOne"> 
+                        <i class="fas fa-wind"></i> 
+                        <span id="speedAir">Wind Speed</span>
+                    </p>
+                    <p id="windTwo"> 
+                        <i class="fas fa-exchange-alt"></i> 
+                        <span id="degAir">Wind Angle</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="https://github.com/cxnzensei/" target="_blank">
+                <img src="./media/github.png" alt="github logo" id="github">
+            </a>
+        </footer>
+    </body>
+</html>
