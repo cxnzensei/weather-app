@@ -1,5 +1,5 @@
 # Weather App
-[Click here to view](https://cxnzensei.github.io/weather-app/)
+[Click here to view](https://cxnzensei.github.io/weatherApp/)
 
 # Webpack
 This webApp was written in HTML, CSS and JS and compiled using webpack => [Documentation with basic steps to get started](https://webpack.js.org/guides/getting-started/)
