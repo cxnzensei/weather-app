@@ -208,4 +208,7 @@
 	.footer {
 		margin-top: 1.5em;
 	}
+	#time {
+		font-size: 14px;
+	}
 }
