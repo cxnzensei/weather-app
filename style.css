@@ -1,177 +1,211 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 /* font-family: 'Open Sans', sans-serif; */
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 #center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 18vh;
-    background-color: rgba(0, 0, 0, 0.37);
-    flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 18vh;
+	background-color: rgba(0, 0, 0, 0.37);
+	flex-direction: column;
 }
 #buttons {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
 }
 #celsius {
-    padding: 10px;
-    margin: 10px;
-    width: 80px;
-    border: 1px solid black;
-    font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	width: 80px;
+	border: 1px solid black;
+	font-size: 20px;
 }
 #celsius:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 #farenheit {
-    padding: 10px;
-    margin: 10px;
-    width: 80px;
-    border: 1px solid black;
-    font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	width: 80px;
+	border: 1px solid black;
+	font-size: 20px;
 }
 #farenheit:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 #input {
-    width: 100%;
-    display: flex;
-    max-width: 350px;
-    align-items: center;
-    justify-content: center;
-    height: 20px;
-    padding: 20px;
-    border: 1px solid #cecece;
-    border-radius: 7px;
-    background-color: rgb(190, 190, 190);
+	width: 100%;
+	display: flex;
+	max-width: 350px;
+	align-items: center;
+	justify-content: center;
+	height: 20px;
+	padding: 20px;
+	border: 1px solid #cecece;
+	border-radius: 7px;
+	background-color: rgb(190, 190, 190);
 }
 #searchInput {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    height: 40px;
-    padding: 9px;
-    border: none;
-    outline: none;
-    background-color: rgb(190, 190, 190);
-    border-radius: 7px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	height: 40px;
+	padding: 9px;
+	border: none;
+	outline: none;
+	background-color: rgb(190, 190, 190);
+	border-radius: 7px;
 }
 #searchBtn {
-    background-image: url(./media/search-icon.png);
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    background-clip: border-box;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin-left: 20px;
+	background-image: url(./media/search-icon.png);
+	background-size: cover;
+	width: 40px;
+	height: 40px;
+	background-clip: border-box;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	margin-left: 20px;
 }
 #description {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 #content {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
 }
+
 .footer {
-    width: 100vw;
-    bottom: 0;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5px;
+	width: 100vw;
+	bottom: 0;
+	/* position: fixed; Uncomment to make it a sticky footer */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5px;
 }
 #github {
-    width: 60px;
-    height: 60px;
+	width: 60px;
+	height: 60px;
 }
 #github:hover {
-    opacity: 0.65;
+	opacity: 0.65;
 }
 #temp i {
-    width: 70px;
-    height: 70px;
-    font-size: 60px;
+	width: 70px;
+	height: 70px;
+	font-size: 60px;
 }
 #temp p {
-    margin-top: 40px;
-    display: flex;
-    padding: 5px;
+	margin-top: 40px;
+	display: flex;
+	padding: 5px;
 }
 #temp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 33.3vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 33.3vw;
 }
 #pressure i {
-    width: 70px;
-    height: 70px;
-    font-size: 60px;
+	width: 70px;
+	height: 70px;
+	font-size: 60px;
 }
 #pressure p {
-    margin-top: 40px;
-    display: flex;
-    padding: 5px;
+	margin-top: 40px;
+	display: flex;
+	padding: 5px;
 }
 #air i {
-    width: 70px;
-    height: 70px;
-    font-size: 60px;
+	width: 70px;
+	height: 70px;
+	font-size: 60px;
 }
 #air p {
-    margin-top: 40px;
-    display: flex;
-    padding: 5px;
+	margin-top: 40px;
+	display: flex;
+	padding: 5px;
 }
 #data {
-    display: flex;
+	display: flex;
 }
 #pressure {
-    display: flex;
-    flex-direction: column;
-    width: 33.3vw;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 33.3vw;
+	align-items: center;
 }
 #air {
-    display: flex;
-    flex-direction: column;
-    width: 33.3vw;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 33.3vw;
+	align-items: center;
 }
 #tempTwo {
-    margin-right: 40px;
+	margin-right: 40px;
 }
 #tempOne {
-    margin-right: 15px;
+	margin-right: 15px;
 }
 #description {
-    height: 100px;
+	height: 100px;
 }
 #time {
-    font-size: 15px;
+	font-size: 15px;
 }
 .chosen {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 #humidity {
-    margin-left: 12px;
+	margin-left: 12px;
+}
+
+@media (max-width: 800px) {
+	#content {
+		font-size: 15px;
+	}
+	#data {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#tempOne,
+	#tempTwo {
+		display: flex;
+		flex-direction: column;
+		margin-right: 0px;
+		align-items: center;
+	}
+	#tempThree,
+	#tempFour,
+	#preOne,
+	#preTwo,
+	#windOne,
+	#windTwo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer {
+		margin-top: 1.5em;
+	}
 }
