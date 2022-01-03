@@ -1,4 +1,4 @@
-let api_key = "4ba0d7eb9cf6e4d9ffdd61dfab171992";
+let api_key = "3344bfd5f3565c86ef21f528e71a3be5";
 let searchInput = document.querySelector("#searchInput");
 let searchBtn = document.querySelector("#searchBtn");
 let celsius = document.querySelector("#celsius");
